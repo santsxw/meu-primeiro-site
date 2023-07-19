@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(47, 28, 156);
+    color: aliceblue;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: crimson;
+    padding: 5px;
+    background-color: rgb(47, 28, 156);
+}
+
+section {
+    border: 1px solid rgb(47, 28, 156);
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+ 
+section a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(47, 28, 156);
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+section a:hover {
+    background-color: rgb(47, 28, 156);
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(47, 28, 156);
+    color: aliceblue;
+    text-align: center;
+}
+
+img {
+    margin-left: 200px;
+    margin-top: 0%;
+    margin: 0;
+    width: 100px;
+    display: flex;
+
+
+}
